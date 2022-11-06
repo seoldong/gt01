@@ -1,0 +1,249 @@
+:root {
+    --p-font-size: 16px;
+    --h4-font-size: 19px;
+    --h3-font-size: 28px;
+    --h2-font-size: 34px;
+    --h1-font-size: 42px;
+}
+
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus {
+    outline-style: none;
+}
+
+input::placeholder {
+    color: rgb(138, 138, 138);
+}
+
+input {
+    font-size: var(--p-font-size);
+}
+
+#simultaneousMoveGame01 {
+    max-width: 1920px;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+/* tutorial s */
+
+#tutorial {
+    width: 100%;
+    height: 100vh;
+}
+
+/* tutorial > tutorialTitle_con s */
+
+.mainTitle_con {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.mainTitle_Box {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.mainTitle {
+    font-size: var(--h2-font-size);
+}
+
+.mainTitleText {
+    font-size: var(--h4-font-size);
+    margin-top: 0.5em ;
+}
+
+/* calculator s */
+/* calculator >  inputSection s */
+
+#calculator {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.calculatorInput_con {
+    width: 50%;
+    height: 100%;
+    padding: 1em;
+    border: solid 1px gray;
+}
+
+.inputTitle_con {
+    width: 100%;
+    height: 10%;
+    padding: 1em;
+}
+
+.inputTitle_box {
+    width: 100%;
+    height: 100%;
+}
+
+.inputTitle {
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+.help_con {
+    width: 100%;
+    height: 20%;
+    padding: 1em;
+    border: solid 1px gray;
+}
+
+.helpBox {
+    width: 100%;
+    height: 100%;
+}
+
+.pushBtn_con {
+    width: 100%;
+    height: 10%;
+    padding: 1em 0em;
+}
+
+.pushBtn {
+    width: 100%;
+    height: 100%;
+    background-color: lightslategrey;
+}
+
+.pushText {
+    font-size: var(--h3-font-size);
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.pushBtn:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.pushBtn:hover > .pushText {
+    color:navy;
+    cursor: pointer;
+}
+
+.input_con {
+    width: 100%;
+    height: 60%;
+    padding: 1em;
+    border: solid 1px gray;
+}
+
+.input_box {
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+
+.setCon {
+    width: 100%;
+    height: 100%;
+}
+
+.setBox_title {
+    width: 100%;
+    /* height: 5vh; */
+    /* border: solid 1px red; */
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.setTitle {
+    width: 100%;
+    height: 100%;
+    font-size: var(--h4-font-size);
+}
+
+.setBox_contents {
+    width: 100%;
+    /* border: solid 1px red; */
+    padding: 0.5em 0.5em 2em 0.5em;
+}
+
+.setInput {
+    width: 100%;
+    border: solid 1px black;
+    padding: 0.5em;
+}
+
+.helpText {
+    font-size: var(--p-font-size);
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.calculatorOnput_con {
+    width: 50%;
+    height: 100%;
+    padding: 1em;
+    border: solid 1px gray;
+}
+
+.outputTitle_con {
+    width: 100%;
+    height: 10%;
+    padding: 1em;
+}
+
+.outputTitle_box {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.outputTitle {
+    font-size: var(--h2-font-size);
+}
+
+.output_con {
+    width: 100%;
+    height: 90%;
+    padding: 1em;
+    border: solid 1px gray;
+}
+
+.output_box {
+    width: 100%;
+    height: 100%;
+}
